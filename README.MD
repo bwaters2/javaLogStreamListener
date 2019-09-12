@@ -1,7 +1,11 @@
-### The Course
-The "REST With Spring" Classes: http://bit.ly/restwithspring
+# Mashery Log Stream Listener
 
-### Relevant Articles:
+This Project connects to a mashery websocket log stream and logs the events
 
-- [Quick Guide to @RestClientTest in Spring Boot](http://www.baeldung.com/restclienttest-in-spring-boot)
-- [A Java Client for a WebSockets API](http://www.baeldung.com/websockets-api-java-spring-client)
+## How to run
+
+In order to run the jar a command line argument containing the full logstream websocket url is required.
+ 
+ example: `java jar rs-logstream-listener-0.0.1-SNAPSHOT.war
+ wss://logstream-api.mashery.com/ecls/subscribe/FIND_THE_REST_IN_MASHERY_ANALYZE`
+
